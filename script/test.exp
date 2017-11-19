@@ -1,0 +1,4 @@
+#!/usr/bin/expect
+
+set a $argv1
+spawn echo $a

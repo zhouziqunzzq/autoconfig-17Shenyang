@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Eclipse for C/C++
+Type=Application
+Terminal=false
+Exec=/usr/local/bin/eclipse-cpp/eclipse
+Path=/usr/local/bin/eclipse-cpp
+Icon=/usr/local/bin/eclipse-cpp/icon.xpm

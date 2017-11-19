@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Eclipse for Java
+Type=Application
+Terminal=false
+Exec=/usr/local/bin/eclipse-java/eclipse
+Path=/usr/local/bin/eclipse-java
+Icon=/usr/local/bin/eclipse-java/icon.xpm

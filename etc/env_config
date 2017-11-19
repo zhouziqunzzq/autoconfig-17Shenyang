@@ -1,0 +1,19 @@
+#!/bin/bash
+# Creator: Bittersweet NEUACM
+# Time:    2017/10/19 21:49
+
+# Account and Home DIR
+USER_NAME=neuacm
+ROOT_PWD=neu
+USER_PWD=neu
+HOME_BASE=/home/$USER_NAME
+
+# Install DIR and Version info
+JDK_INSTALL_DIR=/usr/lib
+JDK_VERSION=jdk1.8.0_162
+PC2_INSTALL_DIR=$HOME_BASE
+PC2_VERSION=pc2-9.5.2
+ECLIPSE_INSTALL_DIR=/usr/local/bin
+
+# Networks
+IP_PREFIX=192.168.1

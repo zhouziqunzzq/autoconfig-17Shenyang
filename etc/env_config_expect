@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+# Creator: Bittersweet NEUACM
+# Time:    2017/10/20 10:00
+
+# Account and Home DIR
+set USER_NAME neuacm
+set ROOT_PWD neu
+set USER_PWD neu
+set HOME_BASE /home/$USER_NAME
+
+# Install DIR
+set JDK_INSTALL_DIR /usr/lib
+set PC2_INSTALL_DIR $HOME_BASE
+set ECLIPSE_INSTALL_DIR /usr/local/bin
+
+# Networks
+set IP_PREFIX 192.168.1

@@ -1,0 +1,1 @@
+手动安装openjdk之前要先apt-get remove openjdk-8-jdk

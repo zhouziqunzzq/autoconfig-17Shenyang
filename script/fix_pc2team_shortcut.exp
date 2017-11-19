@@ -1,0 +1,19 @@
+#!/usr/bin/expect
+# Creator: Bittersweet NEUACM
+# Time:    2017/10/20 10:23
+
+set timeout 30
+source ../etc/env_config_expect
+spawn scp root@$IP_PREFIX.$argv1
+expect {
+"yes/no" {
+	send "yes\r";
+	exp_continue
+	}
+"password:" {
+	send "$ROOT_PWD\r"
+	}
+}
+expect "*from*"
+expect "#"
+interact
